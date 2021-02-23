@@ -1,0 +1,33 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<header>
+    <p>header입니다.</p>
+</header>
+<form action="/list" method="post">
+    <ul>
+        <li>
+            <label >이름</label>
+            <input type="text" id="name">
+        </li>
+        <li>
+            <label >비밀번호</label>
+            <input type="password" id="password">
+        </li>
+        <li>
+            <label >닉네임</label>
+            <input type="text" id="nickname">
+        </li>
+    </ul>
+    <input type="submit" value="가입">
+</form>
+<footer>
+    <p>footer입니다.</p>
+</footer>
+
+</body>
+</html>
